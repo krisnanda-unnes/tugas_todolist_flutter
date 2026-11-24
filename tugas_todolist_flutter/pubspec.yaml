@@ -1,0 +1,26 @@
+name: tugas_todolist
+description: "Aplikasi To-Do List sederhana - Tugas Mata Kuliah Pemrograman Mobile"
+publish_to: "none" # project tugas, tidak dipublikasikan ke pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Ikon bawaan ala iOS (opsional, bawaan template Flutter)
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Kumpulan aturan lint standar agar kode tetap rapi
+  flutter_lints: ^3.0.0
+
+flutter:
+  # Mengaktifkan ikon Material Design bawaan Flutter
+  uses-material-design: true
